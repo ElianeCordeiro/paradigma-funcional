@@ -12,5 +12,6 @@ public class ImutabilidadeExemplo1 {
 		//Quebra da imutabilidade
 		usuario.getEndereco().setRua("Rua 2");
 		System.out.println(usuario.getEndereco().getRua());
+		
 	}
 }
